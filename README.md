@@ -51,6 +51,7 @@ cd mamba-jitter-prediction
 2. Create a virtual environment (recommended):
 
 ```python -m venv venv```
+
 ```source venv/bin/activate```  # On Windows:``` venv\Scripts\activate```
 
 
@@ -61,17 +62,25 @@ cd mamba-jitter-prediction
 
 
 🧪 Usage
+
+
 Train the model:
+
 ```python src/train.py```
 
 
 Evaluate the model:
+
 ```python src/evaluate.py```
 
 
 
+
 📊 Visualizations
+
+
 The plots/ folder includes key evaluation plots:
+
 
 training_loss.png: Training and validation loss progression
 
@@ -81,23 +90,41 @@ test_prediction.png: Model predictions vs actual jitter (test)
 
 
 📂 Dataset
+
+
 This project uses LTE network traffic data, including jitter measurements and CQI values, from three user devices (UE1–UE3). The final model was trained on UE3 data.
 
 
 
- Dataset Access Notice:
+Dataset Access Notice:
+
 The dataset is not openly available for public download. It must be requested via the official IEEE DataPort page below.
 The authors of this thesis do not have permission to redistribute the dataset.
 
-Dataset Title: UE Statistics Time-Series (CQI) in LTE Networks
-Access Link: https://ieee-dataport.org/documents/ue-statistics-time-series-cqi-lte-networks
-Citation:I. Chatzistefanidis, N. Makris, V. Passas, and T. Korakis, 
+
+Dataset Title:
+
+UE Statistics Time-Series (CQI) in LTE Networks
+
+
+Access Link:
+
+https://ieee-dataport.org/documents/ue-statistics-time-series-cqi-lte-networks
+
+
+Citation:
+
+I. Chatzistefanidis, N. Makris, V. Passas, and T. Korakis, 
 “UE statistics time-series (CQI) in LTE networks,” 2022. 
+
 [Online]. Available: https://dx.doi.org/10.21227/ec7p-xq38
 
 
 
+
 🧠 Model Overview
+
+
 Model: Mamba (structured state space model)
 
 Input: Sequences of 20 timesteps with 21 features
@@ -116,14 +143,19 @@ Although deployment to Jetson Orin Nano was attempted, it was not successful due
 
 
 
+
 🚫 Limitations
 Dataset is private and must be requested from IEEE DataPort.
 
 Model was not successfully deployed on Jetson hardware due to runtime library limitations (Triton / ARM64).
 
 
+
+
 📜 License
 This project is provided for academic reference. If you use this work, please cite the thesis and the dataset authors appropriately.
+
+
 
 
 ## 📫 Contact
