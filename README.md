@@ -152,6 +152,7 @@ Although deployment to Jetson Orin Nano was attempted, it was not successful due
 
 
 🚫 Limitations
+
 Dataset is private and must be requested from IEEE DataPort.
 
 Model was not successfully deployed on Jetson hardware due to runtime library limitations (Triton / ARM64).
@@ -161,6 +162,7 @@ Model was not successfully deployed on Jetson hardware due to runtime library li
 
 
 📜 License
+
 This project is provided for academic reference. If you use this work, please cite the thesis and the dataset authors appropriately.
 
 
