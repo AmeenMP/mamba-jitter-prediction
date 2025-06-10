@@ -60,6 +60,8 @@ cd mamba-jitter-prediction
 ```pip install -r requirements.txt```
 
 
+---
+
 
 🧪 Usage
 
@@ -74,6 +76,7 @@ Evaluate the model:
 ```python src/evaluate.py```
 
 
+---
 
 
 📊 Visualizations
@@ -88,6 +91,8 @@ validation_prediction.png: Model predictions vs actual jitter (validation)
 
 test_prediction.png: Model predictions vs actual jitter (test)
 
+
+---
 
 📂 Dataset
 
@@ -120,6 +125,7 @@ I. Chatzistefanidis, N. Makris, V. Passas, and T. Korakis,
 [Online]. Available: https://dx.doi.org/10.21227/ec7p-xq38
 
 
+---
 
 
 🧠 Model Overview
@@ -142,6 +148,7 @@ Baseline Comparison: CNN-LSTM (Ijlal Khan, 2022)
 Although deployment to Jetson Orin Nano was attempted, it was not successful due to ARM64 incompatibility with the Triton backend used in Mamba.
 
 
+---
 
 
 🚫 Limitations
@@ -150,12 +157,14 @@ Dataset is private and must be requested from IEEE DataPort.
 Model was not successfully deployed on Jetson hardware due to runtime library limitations (Triton / ARM64).
 
 
+---
 
 
 📜 License
 This project is provided for academic reference. If you use this work, please cite the thesis and the dataset authors appropriately.
 
 
+---
 
 
 ## 📫 Contact
