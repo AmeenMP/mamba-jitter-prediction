@@ -45,28 +45,28 @@ mamba-jitter-prediction/
 ```bash
 git clone https://github.com/AmeenMP/mamba-jitter-prediction.git
 cd mamba-jitter-prediction
-
+```
 
 
 2. Create a virtual environment (recommended):
 
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+```python -m venv venv```
+```source venv/bin/activate```  # On Windows:``` venv\Scripts\activate```
 
 
 3. Install dependencies:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 
 
 🧪 Usage
 Train the model:
-python src/train.py
+```python src/train.py```
 
 
 Evaluate the model:
-python src/evaluate.py
+```python src/evaluate.py```
 
 
 
