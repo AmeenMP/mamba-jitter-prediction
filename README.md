@@ -95,41 +95,36 @@ The plots/ folder includes key evaluation plots:
 
 ---
 
-📚 Citation
+## 📚 Citation
 
+If you use this repository, please cite the thesis and dataset accordingly:
+
+### Thesis
+
+```bibtex
 @mastersthesis{maniparambath2025thesis,
   author = {Maniparambath, Ameen},
   title = {Optimizing and Benchmarking Mamba for Network Traffic Prediction on Edge Devices},
   school = {University of Oulu},
   year = {2025}
 }
+```
 
 
-This project uses LTE network traffic data, including jitter measurements and CQI values, from three user devices (UE1–UE3). The final model was trained on UE3 data.
+Dataset
+This project uses LTE network traffic data, including jitter measurements and CQI values, from three user devices (UE1–UE3). The final model was trained using UE3 data.
 
+Dataset Access Notice
+The dataset is not openly available for public download. It must be requested via the official IEEE DataPort platform. The authors of this thesis do not have permission to redistribute the dataset.
 
+Title: UE Statistics Time-Series (CQI) in LTE Networks
 
-Dataset Access Notice:
-
-The dataset is not openly available for public download. It must be requested via the official IEEE DataPort page below.
-The authors of this thesis do not have permission to redistribute the dataset.
-
-
-Dataset Title:
-
-UE Statistics Time-Series (CQI) in LTE Networks
-
-
-Access Link:
-
-https://ieee-dataport.org/documents/ue-statistics-time-series-cqi-lte-networks
-
+Access Link: https://ieee-dataport.org/documents/ue-statistics-time-series-cqi-lte-networks
 
 Citation:
 
-I. Chatzistefanidis, N. Makris, V. Passas, and T. Korakis, 
-“UE statistics time-series (CQI) in LTE networks,” 2022. 
-
+I. Chatzistefanidis, N. Makris, V. Passas, and T. Korakis,
+"UE statistics time-series (CQI) in LTE networks," 2022.
 [Online]. Available: https://dx.doi.org/10.21227/ec7p-xq38
 
 
