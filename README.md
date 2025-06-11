@@ -87,11 +87,10 @@ Evaluate the model:
 The plots/ folder includes key evaluation plots:
 
 
-training_loss.png: Training and validation loss progression
+- `training_loss.png`: Training and validation loss progression
+- `validation_prediction.png`: Model predictions vs actual jitter (validation)
+- `test_prediction.png`: Model predictions vs actual jitter (test)
 
-validation_prediction.png: Model predictions vs actual jitter (validation)
-
-test_prediction.png: Model predictions vs actual jitter (test)
 
 
 ---
