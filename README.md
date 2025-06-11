@@ -95,7 +95,14 @@ The plots/ folder includes key evaluation plots:
 
 ---
 
-📂 Dataset
+📚 Citation
+
+@mastersthesis{maniparambath2025thesis,
+  author = {Maniparambath, Ameen},
+  title = {Optimizing and Benchmarking Mamba for Network Traffic Prediction on Edge Devices},
+  school = {University of Oulu},
+  year = {2025}
+}
 
 
 This project uses LTE network traffic data, including jitter measurements and CQI values, from three user devices (UE1–UE3). The final model was trained on UE3 data.
