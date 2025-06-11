@@ -111,11 +111,11 @@ If you use this repository, please cite the thesis and dataset accordingly:
 ```
 
 
-Dataset
+Dataset:
 
 This project uses LTE network traffic data, including jitter measurements and CQI values, from three user devices (UE1–UE3). The final model was trained using UE3 data.
 
-Dataset Access Notice
+Dataset Access Notice:
 
 The dataset is not openly available for public download. It must be requested via the official IEEE DataPort platform. The authors of this thesis do not have permission to redistribute the dataset.
 
