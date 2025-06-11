@@ -101,6 +101,9 @@ If you use this repository, please cite the thesis and dataset accordingly:
 
 ### Thesis
 
+Ameen Maniparambath. *Optimizing and Benchmarking Mamba for Network Traffic Prediction on Edge Devices*. Master's Thesis, University of Oulu, 2025.
+
+
 ```bibtex
 @mastersthesis{maniparambath2025thesis,
   author = {Maniparambath, Ameen},
