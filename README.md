@@ -59,7 +59,7 @@ cd mamba-jitter-prediction
 
 ```pip install -r requirements.txt```
 
-🚨 Note: While the model was trained with torch==2.6.0 + CUDA 12.6, we suggest installing torch==2.6.0 and matching your local CUDA environment. See PyTorch Get Started for guidance.
+🚨 Note: While the model was trained with ```torch==2.6.0 + CUDA 12.6```, we suggest installing ```torch==2.6.0``` and matching your local CUDA environment. See [PyTorch Get Started](https://pytorch.org/get-started/locally/) for guidance.
 
 
 ---
