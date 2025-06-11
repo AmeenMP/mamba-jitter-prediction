@@ -15,7 +15,7 @@ This project explores the use of the Mamba architecture—a recent advancement i
 
 ## 🎯 Objectives
 
-- Forecast network jitter using the Mamba model
+- Forecast network jitter using a model based on the Mamba architecture
 - Benchmark performance against CNN-LSTM baseline
 - Evaluate efficiency, inference speed, and memory usage
 - Attempt edge deployment and document challenges
@@ -133,7 +133,7 @@ I. Chatzistefanidis, N. Makris, V. Passas, and T. Korakis,
 🧠 Model Overview
 
 
-Model: Mamba (structured state space model)
+Model: Model based on the Mamba architecture (structured state space model)
 
 Input: Sequences of 20 timesteps with 21 features
 
