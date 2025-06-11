@@ -111,8 +111,6 @@ If you use this repository, please cite the thesis and dataset accordingly:
 
 ```
 
----
-
 Dataset:
 
 This project uses LTE network traffic data, including jitter measurements and CQI values, from three user devices (UE1–UE3). The final model was trained using UE3 data.
